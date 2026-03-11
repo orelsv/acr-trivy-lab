@@ -19,7 +19,7 @@ jobs:
       # 2. Login to Azure Container Registry
       # We log in early so we are ready, but we WON'T push yet.
       - name: Login to ACR
-        uses: docker/login-action@v2
+        uses: docker/login-action@v4
         with:
           registry: ${{ secrets.ACR_LOGIN_SERVER }}
           username: ${{ secrets.ACR_USERNAME }}
