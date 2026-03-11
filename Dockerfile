@@ -1,7 +1,7 @@
 
 # FROM python:3.13-slim
 
-FROM 3.15.0a7-slim-trixie
+FROM python:3.15.0a7-slim-trixie
 
 WORKDIR /app
 
