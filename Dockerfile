@@ -1,7 +1,7 @@
 
 # FROM python:3.13-slim
 
-FROM python:3.15.0a3-slim-bookworm
+FROM 3.15.0a7-slim-trixie
 
 WORKDIR /app
 
